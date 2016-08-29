@@ -12,8 +12,8 @@ int input() {
    * translation of multiple types of inputs, probably
    * through the use of type selection switches.
    */
-  int volt = analogRead(inPin);
-  int duty = volt * pow(2, res) / 1023;
+  int in = analogRead(inPin);
+  float duty = 0.75*(in/1023) + 0.125;
   
   return duty;
 }

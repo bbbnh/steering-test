@@ -1,9 +1,9 @@
-int duty = 0x40;
+int duty = 0x60;
 
 void setup() {
   pinMode(10, OPEN);
   pinMode(9, OPEN);
-  analogWriteFrequency(400);
+  analogWriteFrequency(1900);
   analogWriteResolution(8);
 }
 
