@@ -3,7 +3,7 @@ int duty = 0x60;
 void setup() {
   pinMode(10, OPEN);
   pinMode(9, OPEN);
-  analogWriteFrequency(1900);
+  analogWriteFrequency(2000);
   analogWriteResolution(8);
 }
 
